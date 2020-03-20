@@ -1,0 +1,86 @@
+html {
+  background-image: linear-gradient(to right, red 20%, black 120%);
+}
+
+p{
+  margin-left: 20px;
+  margin-top:40px;
+  font-weight: bold;
+  /* font-size: 20px; */
+}
+
+form {
+  margin: 20px;
+
+}
+label {
+display: block;
+}
+
+input {
+  margin-left:20px;
+  margin-top:20px;
+  background-color: #000;
+  border: #f00;
+  color: red;
+}
+
+.checkmark{
+  margin-right: 20px;
+  margin-left: 0;
+  background-color: black;
+  color: red;
+}
+
+
+
+button {
+  background-color: #f00;
+  border: 2px solid black;
+  padding: 7px 20px;
+  margin-top: 20px;
+  transition: .3s;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+button:hover {
+  background-color: #000;
+  color: red;
+}
+.logo {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 120px;
+  height: 120px;
+  left: 67%;
+  top: 35%;
+  background-color: black;
+  color: red;
+  position: absolute;
+}
+.logo h1 {
+  transform: rotate(-45deg);
+  color: red;
+  position: relative;
+  left: 25%;
+  top: -15%;
+  font-size: 80px;
+
+}
+.logo p {
+  position: relative;
+  left: -25%;
+  top:20%;
+  text-transform: uppercase;
+}
+
+form span {
+	text-transform: uppercase;
+  /* background: linear-gradient(to right, #000 40%, #f00 20%); */
+  color: black;
+	-webkit-background-clip: text;
+	/* -webkit-text-fill-color: transparent; */
+  font-size: 10px;
+}
